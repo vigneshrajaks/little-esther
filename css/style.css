@@ -1,0 +1,190 @@
+/* ****************** */
+/* SECTION COMMUNITY */
+/* ****************** */
+.header {
+  padding: 3.2rem 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-list {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link {
+  color: #000;
+}
+
+.btn-mobile-nav {
+  display: none;
+  background: none;
+  outline: none;
+  padding: 1.6rem;
+  border: 1px solid #000;
+}
+
+.open-menu {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.close-menu {
+  display: none;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.logo {
+  display: block;
+}
+
+/* ****************** */
+/* SECTION HERO */
+/* ****************** */
+
+.section-hero {
+  /* height: 100vh; */
+  padding: 12.8rem 0;
+
+  background-image: url(../img/sky.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.hero-sub-heading {
+  display: block;
+  font-size: 3.6rem;
+}
+
+/* ****************** */
+/* SECTION ABOUT */
+/* ****************** */
+
+.section-about {
+  padding: 9.6rem 0;
+
+  background-image: url(../img/about-section.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-text-box {
+  align-self: center;
+}
+
+/* ****************** */
+/* SECTION FEATURES */
+/* ****************** */
+
+.section-features {
+  padding: 9.6rem 0;
+
+  background-image: url(../img/featured-section.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features-wrapper {
+  padding: 6.4rem 0;
+}
+
+.features-text-box {
+  align-self: center;
+}
+
+.features-img-box {
+  align-self: center;
+}
+
+.feature-img {
+  box-shadow: rgba(119, 176, 229, 0.8) 0px 8px 24px;
+}
+
+.features {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  color: #613ca3;
+}
+
+/* ****************** */
+/* SECTION ROADMAP */
+/* ****************** */
+
+.section-roadmap {
+  padding: 9.6rem 0;
+
+  background-image: url(../img/about-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+/* ****************** */
+/* SECTION COMMUNITY */
+/* ****************** */
+
+.section-community {
+  padding: 9.6rem 0;
+
+  background-image: url(../img/join-discord.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.community-text-box {
+  align-self: center;
+}
+
+.community-img-box {
+  align-self: center;
+}
+
+.community-points {
+  padding: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.community-points li:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.cta:link,
+.cta:visited {
+  flex-shrink: 0;
+}
+
+.btn {
+  padding: 1.2rem 3.2rem;
+  background-color: #fff;
+  color: #70a6e1;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.cta-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
